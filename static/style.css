@@ -1,0 +1,52 @@
+@font-face{
+	font-family: 'Roboto Mono';
+	src: url("./fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #2e3440; /* nord0 */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#content {
+	color: #eceff4; /* nord6 */
+}
+#name {
+	margin: 0;
+	margin-bottom: 9px;
+}
+#info {
+	margin-top: 0;
+}
+#social {
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #d8dee9;
+}
+
+#email:hover {
+	color: #bf616a; 
+}
+#insta:hover {
+	color: #d08770; 
+}
+#github:hover {
+	color: #ebcb8b;
+}
+#spotify:hover {
+	color: #a3be8c;
+}
